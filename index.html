@@ -146,22 +146,24 @@
                 <!-- Hero -->
                 <section class="hero">
                     <div class="hero__media">
-                        <figure class="hero__images">
+                        <figure class="hero__image-1">
                             <img
-                                src="./assets/img/hero-01.jpg"
+                                src="./assets/img/pet-01.png"
                                 alt=""
-                                class="hero__img"
+                                class="hero__img-1"
                             />
+                        </figure>
+                        <figure class="hero__image-2">
                             <img
-                                src="assets/img/hero-02.jpg"
+                                src="assets/img/pet-02.png"
                                 alt=""
-                                class="hero__img"
+                                class="hero__img-2"
                             />
                         </figure>
                         <section class="hero__sub">
                             <div class="hero__sub-body">
                                 <img
-                                    src="./assets/img/hero-03.jpg"
+                                    src="./assets/img/pet-03.png"
                                     alt=""
                                     class="hero__sub-img"
                                 />
@@ -169,7 +171,7 @@
                             </div>
                             <div class="hero__sub-body">
                                 <img
-                                    src="./assets/img/hero-04.jpg"
+                                    src="./assets/img/pet-04.png"
                                     alt=""
                                     class="hero__sub-img"
                                 />
@@ -996,7 +998,7 @@
                         <!-- Blog list 1 -->
                         <article class="blog__item">
                             <p class="blog__date">21 june 2021</p>
-                            <figure class="blog__imgage-bg">
+                            <figure class="blog__image-bg">
                                 <img
                                     src="./assets/img/blog-01.jpg"
                                     alt=""
@@ -1019,7 +1021,7 @@
                         <!-- Blog list 2 -->
                         <article class="blog__item">
                             <p class="blog__date">28 june 2021</p>
-                            <figure class="blog__imgage-bg">
+                            <figure class="blog__image-bg blog__image-bg-pink">
                                 <img
                                     src="./assets/img/blog-02.jpg"
                                     alt=""
@@ -1039,10 +1041,10 @@
                             </section>
                         </article>
 
-                        <!-- Blog list 1 -->
+                        <!-- Blog list 3 -->
                         <article class="blog__item">
                             <p class="blog__date">10 july 2021</p>
-                            <figure class="blog__imgage-bg">
+                            <figure class="blog__image-bg blog__image-bg-blue">
                                 <img
                                     src="./assets/img/blog-03.jpg"
                                     alt=""
@@ -1064,5 +1066,188 @@
                 </div>
             </section>
         </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__row">
+                    <div class="footer__column">
+                        <!-- Logo -->
+                        <a href="#">
+                            <div class="logo">
+                                <img
+                                    src="./assets/img/logo.png"
+                                    alt="Lucy"
+                                    class="logo__img"
+                                />
+                                <span class="logo__text">Lucy</span>
+                            </div>
+                        </a>
+                        <!-- Form -->
+                        <form action="" class="footer-form">
+                            <input
+                                class="footer-form__input"
+                                type="email"
+                                name="email"
+                                id="email"
+                                placeholder="Enter your email"
+                            />
+                            <button
+                                class="btn footer-form__submit"
+                                type="submit"
+                            ></button>
+                        </form>
+                        <h3 class="footer__heading">Follow Us</h3>
+                        <div class="footer__social">
+                            <a href="#!" class="footer__social-btn">
+                                <svg
+                                    width="6"
+                                    height="12"
+                                    viewBox="0 0 6 12"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M3.98981 11.9358V6.0302H5.76473L6 3.9517H3.98981L3.9928 2.91132C3.9928 2.3692 4.0477 2.07885 4.87783 2.07885H5.98755V0H4.21224C2.07977 0 1.32931 1.00825 1.32931 2.70405V3.95186H0V6.03055H1.32931V11.8521C1.84718 11.9489 2.38257 12 2.93075 12C3.28487 12 3.63863 11.9786 3.98981 11.9358Z"
+                                        fill="currentColor"
+                                    />
+                                </svg>
+                            </a>
+                            <a href="#!" class="footer__social-btn">
+                                <svg
+                                    width="16"
+                                    height="12"
+                                    viewBox="0 0 16 12"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M16 1.42062C15.405 1.66154 14.771 1.82123 14.11 1.89877C14.79 1.524 15.309 0.935077 15.553 0.225231C14.919 0.574154 14.219 0.820615 13.473 0.958154C12.871 0.366462 12.013 0 11.077 0C9.261 0 7.799 1.36062 7.799 3.02862C7.799 3.26862 7.821 3.49938 7.875 3.71908C5.148 3.59631 2.735 2.38985 1.114 0.552C0.831 1.00523 0.665 1.524 0.665 2.08246C0.665 3.13108 1.25 4.06062 2.122 4.59877C1.595 4.58954 1.078 4.44831 0.64 4.22585C0.64 4.23508 0.64 4.24708 0.64 4.25908C0.64 5.73046 1.777 6.95262 3.268 7.23415C3.001 7.30154 2.71 7.33385 2.408 7.33385C2.198 7.33385 1.986 7.32277 1.787 7.28215C2.212 8.48123 3.418 9.36277 4.852 9.39138C3.736 10.1972 2.319 10.6828 0.785 10.6828C0.516 10.6828 0.258 10.6717 0 10.6412C1.453 11.5062 3.175 12 5.032 12C11.068 12 14.368 7.38462 14.368 3.384C14.368 3.25015 14.363 3.12092 14.356 2.99262C15.007 2.56615 15.554 2.03354 16 1.42062Z"
+                                        fill="currentColor"
+                                    />
+                                </svg>
+                            </a>
+                            <a href="#!" class="footer__social-btn">
+                                <svg
+                                    width="13"
+                                    height="12"
+                                    viewBox="0 0 13 12"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M0 1.39394C0 0.989891 0.146401 0.656558 0.439189 0.393939C0.731978 0.131309 1.11262 0 1.58108 0C2.04119 0 2.41344 0.129285 2.69788 0.387879C2.99066 0.654545 3.13707 1.00201 3.13707 1.4303C3.13707 1.81818 2.99486 2.14141 2.71042 2.4C2.41764 2.66667 2.03282 2.8 1.55598 2.8H1.54344C1.08333 2.8 0.711072 2.66667 0.426641 2.4C0.142209 2.13333 0 1.79798 0 1.39394ZM0.163127 12V3.90303H2.94884V12H0.163127ZM4.49228 12H7.27799V7.47879C7.27799 7.19595 7.31146 6.97777 7.37838 6.82424C7.49549 6.54949 7.67326 6.31716 7.91168 6.12727C8.1501 5.93737 8.44916 5.84242 8.80888 5.84242C9.74582 5.84242 10.2143 6.45252 10.2143 7.67273V12H13V7.35758C13 6.16161 12.7072 5.25455 12.1216 4.63636C11.536 4.01818 10.7622 3.70909 9.80019 3.70909C8.72104 3.70909 7.88031 4.15758 7.27799 5.05455V5.07879H7.26544L7.27799 5.05455V3.90303H4.49228C4.509 4.16161 4.51737 4.96565 4.51737 6.31515C4.51737 7.66464 4.509 9.55959 4.49228 12Z"
+                                        fill="currentColor"
+                                    />
+                                </svg>
+                            </a>
+                            <!-- <a href="#!" class="footer__social-btn">
+                                <svg
+                                    class="footer-insta"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    id="instagram"
+                                >
+                                    <g data-name="Brand Logos">
+                                        <path
+                                            fill="#6563ff"
+                                            d="M12.00039,6.86511A5.13489,5.13489,0,1,0,17.13528,12,5.13479,5.13479,0,0,0,12.00039,6.86511Zm0,8.46846A3.3336,3.3336,0,1,1,15.334,12,3.33317,3.33317,0,0,1,12.00039,15.33357Z"
+                                        ></path>
+                                        <path
+                                            fill="#6563ff"
+                                            d="M21.93985,7.87719a7.33258,7.33258,0,0,0-.46447-2.42726,4.918,4.918,0,0,0-1.15346-1.77146A4.89358,4.89358,0,0,0,18.55129,2.525,7.32278,7.32278,0,0,0,16.124,2.06054C15.05775,2.012,14.7169,2,12.00122,2s-3.05681.01126-4.12365.06054A7.33317,7.33317,0,0,0,5.45032,2.525,4.90522,4.90522,0,0,0,3.67886,3.67847a4.88551,4.88551,0,0,0-1.1534,1.77146A7.33341,7.33341,0,0,0,2.061,7.87719C2.01171,8.94341,2.00039,9.28432,2.00039,12s.01132,3.05653.06059,4.12276a7.33352,7.33352,0,0,0,.46448,2.42731,4.888,4.888,0,0,0,1.1534,1.77146,4.9169,4.9169,0,0,0,1.77146,1.1534,7.33849,7.33849,0,0,0,2.42725.46448C8.94441,21.9879,9.28471,22,12.00039,22s3.05658-.01132,4.12281-.06059a7.33339,7.33339,0,0,0,2.42726-.46448,5.11251,5.11251,0,0,0,2.92492-2.92486,7.316,7.316,0,0,0,.46447-2.42731c.0485-1.067.05976-1.40708.05976-4.12276S21.98835,8.94341,21.93985,7.87719Zm-1.799,8.16406a5.54872,5.54872,0,0,1-.344,1.85708,3.31133,3.31133,0,0,1-1.89825,1.89741,5.52231,5.52231,0,0,1-1.85708.344c-1.05408.04844-1.37068.05815-4.04119.05815s-2.98623-.00971-4.04-.05815a5.5263,5.5263,0,0,1-1.85708-.344,3.10771,3.10771,0,0,1-1.15024-.748,3.085,3.085,0,0,1-.748-1.1494,5.52134,5.52134,0,0,1-.344-1.85708c-.0485-1.05408-.05815-1.37068-.05815-4.04119s.01049-2.98623.05815-4.0412a5.56308,5.56308,0,0,1,.344-1.857,3.1074,3.1074,0,0,1,.748-1.15024,3.08175,3.08175,0,0,1,1.15024-.748,5.52271,5.52271,0,0,1,1.85708-.344c1.05407-.04849,1.37068-.05815,4.04-.05815s2.98623.01049,4.04119.05815a5.5635,5.5635,0,0,1,1.85708.344,3.30957,3.30957,0,0,1,1.89825,1.89825,5.52254,5.52254,0,0,1,.344,1.857c.04849,1.055.05815,1.37074.05815,4.0412S20.18936,14.98628,20.14087,16.04125Z"
+                                        ></path>
+                                        <path
+                                            fill="#6563ff"
+                                            d="M17.339,5.462h-.00044a1.19979,1.19979,0,1,0,.00044,0Z"
+                                        ></path>
+                                    </g>
+                                </svg>
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <h3 class="footer heading">Explore</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">About Us </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">Services </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">Our Team </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link">Adopt Pet </a>
+                            </li>
+                        </ul>
+
+                        <h3 class="footer heading">Contact Info</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link"
+                                    >lucy@gmail.com
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link"
+                                    >0(800)-000-00-00
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#!" class="footer__link"
+                                    >New York, NY, Rocawy 7
+                                </a>
+                            </li>
+                        </ul>
+                        </div>
+
+                        <div class="footer__column">
+                            <h3 class="footer heading">Useful links</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">FAQs </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Shop </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link"
+                                        >Privacy Policy</a
+                                    >
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link"
+                                        >Terms of Use</a
+                                    >
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Site Map </a>
+                                </li>
+                            </ul>
+
+                            <h3 class="footer heading">Opening Time</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link"
+                                        >Mon – Fri : 08.00 am – 20.00 pm
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link"
+                                        >Saturday : 09.00 am – 20.00 pm
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link"
+                                        >Sunday: We are Closed
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
